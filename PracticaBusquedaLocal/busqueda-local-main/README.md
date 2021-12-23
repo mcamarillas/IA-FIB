@@ -1,3 +1,3 @@
-# Búsqueda Local
+# Pràctica 1 IA: Local Search
 
-Proyectito do Inteligença Artificial
+Nota : 8.5
