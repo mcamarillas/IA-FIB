@@ -1,0 +1,1223 @@
+    ([CasaSantGervasi1] of Casa
+    	 (isCasa "true")
+         (jardin  "true")
+         (plantas  3)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  4)
+         (numero_dormitorios  5)
+         (piscina  "true")
+         (posX  1507)
+         (posY  9211)
+         (precio  8000)
+         (superficie  600)
+    )
+
+    ([CasaSantGervasi2] of Casa
+    	 (isCasa "true")
+         (jardin  "true")
+         (mascotas_permitidas "true")
+         (plantas  2)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  4)
+         (piscina  "true")
+         (posX  2821)
+         (posY  9214)
+         (precio  4000)
+         (superficie  400)
+    )
+
+    ([CasaSantGervasi3] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (plantas  3)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  2070)
+         (posY  7524)
+         (precio  2200)
+         (superficie  160)
+    )
+
+    ([PisoSantGervasi1] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  0)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  1)
+         (piscina  "true")
+         (posX  3575)
+         (posY  7534)
+         (precio  2000)
+         (superficie  111)
+    )
+
+    ([CasaGracia1] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (plantas  2)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  4501)
+         (posY  9212)
+         (precio  1800)
+         (superficie  160)
+    )
+
+    ([CasaGracia2] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (mascotas_permitidas "true")
+         (plantas  2)
+         (amueblada  "false")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  4580)
+         (posY  7087)
+         (precio  1180)
+         (superficie  123)
+    )
+
+
+    ([CasaHorta1] of Casa
+    	(isCasa "true")
+         (jardin  "true")
+         (plantas  3)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  3)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5210)
+         (posY  9230)
+         (precio 1350)
+         (superficie  160)
+    )
+
+    ([PisoHorta1] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "false")
+         (piso  4)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5270)
+         (posY  8170)
+         (precio  1100)
+         (superficie  100)
+    )
+
+    ([PisoHorta2] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  3)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "true")
+         (posX  5810)
+         (posY  8054)
+         (precio  900)
+         (superficie  77)
+    )
+
+    ([PisoNouBarris1] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  4)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  8520)
+         (posY  8017)
+         (precio  940)
+         (superficie  82)
+    )
+
+    ([PisoNouBarris2] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  3)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "true")
+         (posX  6510)
+         (posY  7032)
+         (precio  860)
+         (superficie  74)
+    )
+
+    ([PisoNouBarris3] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  2)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  7090)
+         (posY  9006)
+         (precio  720)
+         (superficie 60)
+    )
+
+    ([PisoLesCorts1] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  4)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  1520)
+         (posY  5521)
+         (precio  1400)
+         (superficie  120)
+    )
+
+    ([PisoLesCorts2] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "false")
+         (piso  6)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  3530)
+         (posY  5076)
+         (precio  1100)
+         (superficie  100)
+    )
+
+    ([PisoLesCorts3] of Piso
+    	(isCasa "false")
+         (ascensor  "false")
+         (balcon "false")
+         (mascotas_permitidas "false")
+         (piso  8)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  1502)
+         (posY  5107)
+         (precio  737)
+         (superficie 60)
+    )
+
+    ([PisoLesCorts4] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  2)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  1)
+         (piscina  "false")
+         (posX  3514)
+         (posY  5104)
+         (precio  720)
+         (superficie 50)
+    )
+
+	([PisoEixample1] of Piso
+		(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  3)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  4518)
+         (posY  5521)
+         (precio  1600)
+         (superficie  140)
+    )
+
+    ([PisoEixample2] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "false")
+         (piso  5)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  5810)
+         (posY  5830)
+         (precio  1200)
+         (superficie  100)
+    )
+
+    ([PisoEixample3] of Piso
+    	(isCasa "false")
+         (ascensor  "false")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  1)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5151)
+         (posY  5151)
+         (precio  1000)
+         (superficie 87)
+    )
+
+    ([PisoSantAndreu1] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "false")
+         (piso  2)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5534)
+         (posY  5589)
+         (precio  1260)
+         (superficie 87)
+    )
+    ([PisoSantAndreu2] of Piso
+    	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  5)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  9056)
+         (posY  5503)
+         (precio  1070)
+         (superficie 71)
+    )
+
+     ([PisoSantAndreu3] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  0)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  2)
+         (piscina  "false")
+         (posX  6567)
+         (posY  4503)
+         (precio  780)
+         (superficie 56)
+    )
+    
+    ([CasaSantAndreu1] of Casa
+    	(isCasa "true")
+         (jardin  "true")
+         (plantas  2)
+         (mascotas_permitidas "true")
+         (amueblada  "false")
+         (aparcamiento  "false")
+         (numero_baños  2)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  8035)
+         (posY  5002)
+         (precio 1115)
+         (superficie  100)
+    )
+
+    ([CasaSantsMontjuic1] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (plantas  2)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  820)
+         (posY  3550)
+         (precio 950)
+         (superficie  85)
+    )
+
+    ([CasaSantsMontjuic2] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (plantas  3)
+         (mascotas_permitidas "true")
+         (amueblada  "false")
+         (aparcamiento  "true")
+         (numero_baños  3)
+         (numero_dormitorios  4)
+         (piscina  "false")
+         (posX  801)
+         (posY  816)
+         (precio 1200)
+         (superficie  105)
+    )
+
+    ([PisoSantsMontjuic1] of Piso
+     	(isCasa "false")
+         (ascensor  "false")
+         (balcon "false")
+         (mascotas_permitidas "false")
+         (piso  0)
+         (amueblada  "false")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  1)
+         (piscina  "false")
+         (posX  3577)
+         (posY  821)
+         (precio  600)
+         (superficie 45)
+    )
+
+    ([PisoSantsMontjuic2] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  2)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  3577)
+         (posY  3577)
+         (precio  900)
+         (superficie 82)
+    )
+
+    ([PisoCiutatVella1] of Piso
+     	(isCasa "false")
+         (ascensor  "false")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  2)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  4522)
+         (posY  3333)
+         (precio  1400)
+         (superficie 180)
+    )
+
+    ([PisoCiutatVella2] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  3)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5111)
+         (posY  2566)
+         (precio  1000)
+         (superficie 86)
+    )
+
+    ([PisoCiutatVella3] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  4)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  1)
+         (numero_dormitorios  1)
+         (piscina  "false")
+         (posX  4552)
+         (posY  1333)
+         (precio  850)
+         (superficie 58)
+    )
+
+    ([PisoCiutatVella4] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "false")
+         (piso  5)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  5896)
+         (posY  3253)
+         (precio  1115)
+         (superficie 90)
+    )
+
+    ([PisoCiutatVella5] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  8)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  3)
+         (numero_dormitorios  5)
+         (piscina  "true")
+         (posX  5822)
+         (posY  1033)
+         (precio  2000)
+         (superficie 200)
+    )
+
+    ([PisoSantMarti1] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  0)
+         (amueblada  "false")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  1)
+         (piscina  "true")
+         (posX  6502)
+         (posY  2533)
+         (precio  800)
+         (superficie 50)
+    )
+
+    ([CasaSantMarti1] of Casa
+    	(isCasa "true")
+         (jardin  "false")
+         (plantas  2)
+         (mascotas_permitidas "true")
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  2)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  7319)
+         (posY  1578)
+         (precio 1300)
+         (superficie  120)
+    )
+
+ 
+    ([PisoSantMarti2] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  1)
+         (amueblada  "true")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  3)
+         (piscina  "false")
+         (posX  8054)
+         (posY  3004)
+         (precio  950)
+         (superficie 82)
+    )
+
+    ([PisoSantMarti3] of Piso
+     	(isCasa "false")
+         (ascensor  "false")
+         (balcon "false")
+         (mascotas_permitidas "true")
+         (piso  2)
+         (amueblada  "false")
+         (aparcamiento  "false")
+         (numero_baños  1)
+         (numero_dormitorios  2)
+         (piscina  "false")
+         (posX  9045)
+         (posY  2068)
+         (precio  650)
+         (superficie 60)
+    )
+
+    ([PisoSantMarti4] of Piso
+     	(isCasa "false")
+         (ascensor  "true")
+         (balcon "true")
+         (mascotas_permitidas "true")
+         (piso  15)
+         (amueblada  "true")
+         (aparcamiento  "true")
+         (numero_baños  3)
+         (numero_dormitorios  5)
+         (piscina  "true")
+         (posX  9045)
+         (posY  1048)
+         (precio  3000)
+         (superficie 180)
+    )
+
+
+    ([SantGervasi] of Distrito
+         
+    )
+
+    ([LesCorts] of Distrito
+   
+    )
+
+    ([SantsMontjuic] of Distrito
+         
+    )
+
+    ([CiutatVella] of Distrito
+         
+    )
+
+    ([Eixample] of Distrito
+         
+    )
+
+    ([SantMarti] of Distrito
+         
+    )
+
+    ([SantAndreu] of Distrito
+         
+    )
+
+    ([NouBarris] of Distrito
+         
+    )
+
+    ([Horta] of Distrito
+         
+    )
+
+    ([Gracia] of Distrito
+         
+    )
+
+    ([Metro1] of Transporte_Publico
+        (posX  2630)
+        (posY  8546)
+    )
+
+    ([Metro2] of Transporte_Publico
+        (posX  3850)
+        (posY  6894)
+    )
+
+    ([Metro3] of Transporte_Publico
+        (posX  4788)
+        (posY  8562)
+    )
+
+    ([Metro4] of Transporte_Publico
+        (posX  5630)
+        (posY  6646)
+    )
+
+    ([Metro5] of Transporte_Publico
+        (posX  5134)
+        (posY  8946)
+    )
+
+    ([Metro6] of Transporte_Publico
+        (posX  6570)
+        (posY  9048)
+    )
+
+    ([Metro7] of Transporte_Publico
+        (posX  8256)
+        (posY  6977)
+    )
+
+    ([Metro8] of Transporte_Publico
+        (posX  1553)
+        (posY  5366)
+    )
+
+    ([Metro9] of Transporte_Publico
+        (posX  3289)
+        (posY  5378)
+    )
+
+    ([Metro10] of Transporte_Publico
+        (posX  3842)
+        (posY  5356)
+    )
+
+    ([Metro11] of Transporte_Publico
+        (posX  5555)
+        (posY  5046)
+    )
+
+    ([Metro12] of Transporte_Publico
+        (posX  4330)
+        (posY  5046)
+    )
+
+    ([Metro13] of Transporte_Publico
+        (posX  6855)
+        (posY  5165)
+    )
+
+    ([Metro14] of Transporte_Publico
+        (posX  9054)
+        (posY  4578)
+    )
+
+    ([Metro15] of Transporte_Publico
+        (posX  0530)
+        (posY  2546)
+    )
+
+    ([Metro16] of Transporte_Publico
+        (posX  1060)
+        (posY  3264)
+    )
+
+    ([Metro17] of Transporte_Publico
+        (posX  3065)
+        (posY  3545)
+    )
+
+    ([Metro18] of Transporte_Publico
+        (posX  3067)
+        (posY  1065)
+    )
+
+    ([Metro19] of Transporte_Publico
+        (posX  5064)
+        (posY  3264)
+    )
+
+    ([Metro20] of Transporte_Publico
+        (posX  5030)
+        (posY  804)
+    )
+
+    ([Metro21] of Transporte_Publico
+        (posX  6530)
+        (posY  384)
+    )
+
+    ([Metro22] of Transporte_Publico
+        (posX  6502)
+        (posY  1598)
+    )
+
+    ([Metro22] of Transporte_Publico
+        (posX  7130)
+        (posY  1704)
+    )
+
+    ([Metro23] of Transporte_Publico
+        (posX  8065)
+        (posY  2348)
+    )
+
+    ([Gym1] of Centro_Deportivo
+        (posX  2630)
+        (posY  8054)
+    )
+
+    ([Gym2] of Centro_Deportivo
+        (posX  4560)
+        (posY  8055)
+    )
+
+    ([Gym3] of Centro_Deportivo
+        (posX  5540)
+        (posY  8562)
+    )
+
+    ([Gym4] of Centro_Deportivo
+        (posX  7065)
+        (posY  8246)
+    )
+
+    ([Gym5] of Centro_Deportivo
+        (posX  2030)
+        (posY  5404)
+    )
+
+    ([Gym6] of Centro_Deportivo
+        (posX  4800)
+        (posY  5062)
+    )
+
+    ([Gym7] of Centro_Deportivo
+        (posX  6394)
+        (posY  5046)
+    )
+
+    ([Gym8] of Centro_Deportivo
+        (posX  2534)
+        (posY  2599)
+    )
+
+    ([Gym9] of Centro_Deportivo
+        (posX  4587)
+        (posY  2560)
+    )
+
+    ([Gym10] of Centro_Deportivo
+        (posX  7156)
+        (posY  2894)
+    )
+
+    ([Museito1] of Centro_Cultural
+        (posX  2156)
+        (posY  8346)
+    )
+
+    ([Museito2] of Centro_Cultural
+        (posX  5860)
+        (posY  4566)
+    )
+
+    ([Museito3] of Centro_Cultural
+        (posX  7056)
+        (posY  4546)
+    )
+
+    ([Museito4] of Centro_Cultural
+        (posX  3654)
+        (posY  3069)
+    )
+
+    ([Museito5] of Centro_Cultural
+        (posX  5863)
+        (posY  3065)
+    )
+
+    ([Museito6] of Centro_Cultural
+        (posX  6302)
+        (posY  3044)
+    )
+
+    ([CAP1] of Centro_Salud
+        (posX  3658)
+        (posY  1665)
+    )
+
+    ([CAP2] of Centro_Salud
+        (posX  4858)
+        (posY  1205)
+    )
+
+    ([CAP3] of Centro_Salud
+        (posX  7065)
+        (posY  3045)
+    )
+
+    ([CAP4] of Centro_Salud
+        (posX  1548)
+        (posY  5385)
+    )
+
+    ([CAP5] of Centro_Salud
+        (posX  5800)
+        (posY  5236)
+    )
+
+    ([CAP6] of Centro_Salud
+        (posX  7354)
+        (posY  5587)
+    )
+
+    ([CAP7] of Centro_Salud
+        (posX  2258)
+        (posY  9065)
+    )
+
+     ([CAP8] of Centro_Salud
+        (posX  3504)
+        (posY  8077)
+    )
+
+    ([CAP9] of Centro_Salud
+        (posX  4058)
+        (posY  8865)
+    )
+
+    ([CAP10] of Centro_Salud
+        (posX  5058)
+        (posY  8065)
+    )
+
+    ([CAP11] of Centro_Salud
+        (posX  5858)
+        (posY  5840)
+    )
+
+    ([CAP12] of Centro_Salud
+        (posX  7355)
+        (posY  9021)
+    )
+
+    ([CSoc1] of Centro_Social
+        (posX  3062)
+        (posY  3044)
+    )
+
+    ([CSoc2] of Centro_Social
+        (posX  4862)
+        (posY  1244)
+    )
+
+    ([CSoc3] of Centro_Social
+        (posX  6242)
+        (posY  1248)
+    )
+
+    ([CSoc4] of Centro_Social
+        (posX  8014)
+        (posY  1544)
+    )
+
+    ([CSoc5] of Centro_Social
+        (posX  2844)
+        (posY  4210)
+    )
+
+    ([CSoc6] of Centro_Social
+        (posX  4512)
+        (posY  5014)
+    )
+
+    ([CSoc7] of Centro_Social
+        (posX  8255)
+        (posY  5478)
+    )
+
+    ([CSoc8] of Centro_Social
+        (posX  1845)
+        (posY  7733)
+    )
+
+    ([CSoc9] of Centro_Social
+        (posX  4545)
+        (posY  8080)
+    )
+
+    ([CSoc10] of Centro_Social
+        (posX  5011)
+        (posY  9841)
+    )
+
+    ([CSoc11] of Centro_Social
+        (posX  7070)
+        (posY  7070)
+    )
+    
+    ([Escuela1] of Centro_Escolar
+        (posX  3808)
+        (posY  7070)
+    )
+    
+    ([Escuela2] of Centro_Escolar
+        (posX  4698)
+        (posY  7009)
+    )
+    
+    ([Escuela3] of Centro_Escolar
+        (posX  7038)
+        (posY  6590)
+    )
+    
+    ([Escuela4] of Centro_Escolar
+        (posX  5531)
+        (posY  9529)
+    )
+    
+    ([Escuela5] of Centro_Escolar
+        (posX  3589)
+        (posY  5353)
+    )
+    
+    ([Escuela6] of Centro_Escolar
+        (posX  5508)
+        (posY  5870)
+    )
+    
+    ([Escuela7] of Centro_Escolar
+        (posX  8591)
+        (posY  5588)
+    )
+    
+    ([Escuela8] of Centro_Escolar
+        (posX  1000)
+        (posY  100)
+    )
+    
+    ([Escuela9] of Centro_Escolar
+        (posX  5508)
+        (posY  5370)
+    )
+    
+    ([Escuela10] of Centro_Escolar
+        (posX  7518)
+        (posY  3019)
+    )
+    
+    ([UPC1] of Universidad
+        (posX  1853)
+        (posY  8467)
+    )
+    
+    ([UPC2] of Universidad
+        (posX  1518)
+        (posY  8019)
+    )
+    
+    ([UPC3] of Universidad
+        (posX  5618)
+        (posY  5619)
+    )
+    
+    ([UPC4] of Universidad
+        (posX  9518)
+        (posY  1419)
+    )
+    
+    ([Res1] of Restauracion
+        (posX  1054)
+        (posY  1465)
+    )
+
+    ([Res2] of Restauracion
+        (posX  4455)
+        (posY  2525)
+    )
+    
+    ([Res3] of Restauracion
+        (posX  8044)
+        (posY  2563)
+    )
+
+    ([Res4] of Restauracion
+        (posX  1554)
+        (posY  5365)
+    )
+
+    ([Res5] of Restauracion
+        (posX  4555)
+        (posY  5362)
+    )
+
+    ([Res6] of Restauracion
+        (posX  7275)
+        (posY  5041)
+    )
+
+    ([Res7] of Restauracion
+        (posX  2054)
+        (posY  9512)
+    )
+
+    ([Res8] of Restauracion
+        (posX  4251)
+        (posY  9515)
+    )
+
+    ([Res9] of Restauracion
+        (posX  5054)
+        (posY  9865)
+    )
+
+    ([Res10] of Restauracion
+        (posX  8585)
+        (posY  9090)
+    )
+
+    ([Par1] of Parque
+        (acceso_perros "true")
+        (posX  2015)
+        (posY  0551)
+    )
+
+    ([Par2] of Parque
+        (acceso_perros "false")
+        (posX  5014)
+        (posY  1021)
+    )
+
+    ([Par3] of Parque
+        (acceso_perros "true")
+        (posX  7541)
+        (posY  2121)
+    )
+
+    ([Par4] of Parque
+        (acceso_perros "false")
+        (posX  2851)
+        (posY  5014)
+    )
+
+    ([Par5] of Parque
+        (acceso_perros "true")
+        (posX  5050)
+        (posY  5151)
+    )
+
+    ([Par6] of Parque
+        (acceso_perros "false")
+        (posX  8211)
+        (posY  4545)
+    )
+
+    ([Par7] of Parque
+        (acceso_perros "true")
+        (posX  3030)
+        (posY  9054)
+    )
+
+    ([Par8] of Parque
+        (acceso_perros "false")
+        (posX  4211)
+        (posY  9547)
+    )
+
+    ([Par9] of Parque
+        (acceso_perros "true")
+        (posX  5862)
+        (posY  9514)
+    )
+
+    ([Par10] of Parque
+        (acceso_perros "false")
+        (posX  8321)
+        (posY  9515)
+    )
+
+    ([Ocio1] of Ocio
+        (nocturno "false")
+        (posX  2655)
+        (posY  3654)
+    )
+
+    ([Ocio2] of Ocio
+        (nocturno "false")
+        (posX  5040)
+        (posY  2741)
+    )
+
+    ([Ocio3] of Ocio
+        (nocturno "true")
+        (posX  6874)
+        (posY  2211)
+    )
+    
+    ([Ocio4] of Ocio
+        (nocturno "false")
+        (posX  621)
+        (posY  4877)
+    )
+
+    ([Ocio5] of Ocio
+        (nocturno "true")
+        (posX  5641)
+        (posY  6321)
+    )
+
+    ([Ocio6] of Ocio
+        (nocturno "true")
+        (posX  8355)
+        (posY  5554)
+    )
+
+    ([Ocio7] of Ocio
+        (nocturno "false")
+        (posX  1021)
+        (posY  8357)
+    )
+
+    ([Ocio8] of Ocio
+        (nocturno "true")
+        (posX  4987)
+        (posY  8014)
+    )
+
+    ([Ocio9] of Ocio
+        (nocturno "false")
+        (posX  5874)
+        (posY  7070)
+    )
+
+    ([Ocio10] of Ocio
+        (nocturno "false")
+        (posX  6555)
+        (posY  8054)
+    )
+    
+    
+    
+    
+    
+    
+    
+    
