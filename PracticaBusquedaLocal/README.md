@@ -1,3 +1,3 @@
 # Instuccions d'execució
 
-java -jar 
+java -jar ./Executables/PracticaBusquedaLocal.jar
