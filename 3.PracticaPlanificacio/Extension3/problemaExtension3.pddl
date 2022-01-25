@@ -1,0 +1,43 @@
+(define (problem problemaExtension3)
+ (:domain dominioExtension3)
+
+ (:objects
+   hab1 hab2 - habitacion
+   res1 res2 res3 res4 res5 res6 - reserva
+ )
+
+ (:init
+   (not (resuelta res1))
+   (not (resuelta res2))
+   (not (resuelta res3))
+   (not (resuelta res4))
+   (not (resuelta res5))
+   (not (resuelta res6))
+   (= (reservasNoAsignadas) 0)
+   (= (plazasMalgastadas) 0)
+   (= (plazas hab1) 4)
+   (= (plazas hab2) 4)
+   (= (personas res1) 1)
+   (= (inicio res1) 2)
+   (= (fin res1) 5)
+   (= (personas res2) 2)
+   (= (inicio res2) 2)
+   (= (fin res2) 5)
+   (= (personas res3) 2)
+   (= (inicio res3) 10)
+   (= (fin res3) 14)
+   (= (personas res4) 4)
+   (= (inicio res4) 15)
+   (= (fin res4) 17)
+   (= (personas res5) 1)
+   (= (inicio res5) 18)
+   (= (fin res5) 19)
+   (= (personas res6) 2)
+   (= (inicio res6) 29)
+   (= (fin res6) 30)
+ )
+ (:goal
+   (forall (?res - reserva) (resuelta?res))
+ )
+   (:metric minimize (+ (* (reservasNoAsignadas) 18) (plazasMalgastadas)))
+)

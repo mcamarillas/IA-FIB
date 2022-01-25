@@ -1,0 +1,40 @@
+(define (problem problemaBasico)
+ (:domain dominioBasico)
+
+ (:objects
+   hab1 hab2  -habitacion
+   res1 res2 res3 res4 res5 res6 - reserva
+ )
+
+ (:init
+   (not (resuelta res1))
+   (not (resuelta res2))
+   (not (resuelta res3))
+   (not (resuelta res4))
+   (not (resuelta res5))
+   (not (resuelta res6))
+   (= (plazas hab1) 4)
+   (= (plazas hab2) 4)
+   (= (personas res1) 1)
+   (= (inicio res1) 10)
+   (= (fin res1) 13)
+   (= (personas res2) 4)
+   (= (inicio res2) 14)
+   (= (fin res2) 19)
+   (= (personas res3) 4)
+   (= (inicio res3) 20)
+   (= (fin res3) 24)
+   (= (personas res4) 2)
+   (= (inicio res4) 25)
+   (= (fin res4) 26)
+   (= (personas res5) 4)
+   (= (inicio res5) 27)
+   (= (fin res5) 28)
+   (= (personas res6) 3)
+   (= (inicio res6) 29)
+   (= (fin res6) 30)
+ )
+ (:goal
+   (forall (?res - reserva) (resuelta?res))
+ )
+)
