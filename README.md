@@ -1,4 +1,5 @@
-# IA-FIB 2021/22Q1
+# IA-FIB 
+## Curs: 2021/22Q1
 
 Pràctiques de l'assignatura d'inteligència artificial
 
